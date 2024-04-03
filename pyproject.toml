@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "qa-guru-hw16-poetry"
+version = "0.1.0"
+description = "Project is created with 'Poetry'"
+authors = ["Zaur Mamedov <zaurmd1996@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pytest = "^8.1.1"
+selene = "2.0.0rc8"
+
+
+[tool.poetry.group.dev.dependencies]
+pylint = "^3.1.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
